@@ -1,0 +1,157 @@
+body {
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: monospace;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li {
+    float: left;
+    display: block;
+    padding-left: 60px;
+    list-style-type: none;
+}
+nav li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    margin-top: 10px;
+}
+
+.frame1 {
+    background-color: #373737;
+    height: 275px;
+    width: 38%;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.atlas {
+    z-index: 0;
+    position: absolute;
+}
+
+.frame2 {
+    background-color: #373737;
+    height: 275px;
+    width: 40%;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.frame2 h3 {
+    color: white;
+    padding: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.frame3 {
+    background-color: #373737;
+    height: 275px;
+    width: 22%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-end;
+}   
+
+.frame3 .vector1 {
+    margin-left: 40px;
+}
+
+section .bento-2 {
+    margin-top: 15px;
+}
+
+.frame4 {
+    background-color: #373737;
+    height: 300px;
+    width: 30%;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.frame5 {
+    background-color: #373737;
+    height: 300px;
+    width: 70%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frame5 img {
+    position: absolute;
+}
+
+.aboutme {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme h3 {
+    font-weight: normal;
+    z-index: 1000;
+    justify-content: flex-start;    
+    width: 150px;
+    padding-right: 200px;
+    padding-top: 400px;
+}
+
+.lilfella-img {
+    position: absolute;
+    padding-right: 900px;
+    padding-top: 120px;
+}
+
+.swirl {
+    position: absolute;
+    padding-right: 900px;
+    padding-top: 280px;
+    
+}
+
+.picofme img{
+    align-items: center;
+    padding-right: 100px;
+    width: 400px;
+    z-index: 100;
+}
+
+.aboutme h1 {
+    position: absolute;
+    font-family: "Montserrat", serif;
+    font-size: 50px;
+    font-weight: black;
+    padding-left: 700px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.aboutme-p {
+    position: absolute;
+    width: 400px;
+    font-size: 20px;
+    padding-left: 1100px;
+    padding-top: 80px;
+}
+
