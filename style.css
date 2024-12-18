@@ -102,56 +102,69 @@ section .bento-2 {
     position: absolute;
 }
 
-.aboutme {
-    margin-top: 100px;
+.frame6 {
+    background-color: #373737;
+    width: 25%;
+    height: 350px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.frame7 {
+    background-color: #373737;
+    width: 37%;
+    height: 350px;
+    border-radius: 40px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame7 h1 {
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.frame8 {
+    background-color: #373737;
+    width: 37%;
+    height: 350px;
+    border-radius: 40px;
+}
+.frame8 img {
+    position: absolute;
+    width: 300px;
+    top: 670px
+}
+.frame8 h1 {
+    color: white;
+    position: absolute;
+    right: 140px;
+    padding-top: 210px;
+    width: 175px;
+}
+
+.frame9 {
+    background-color: #fff;
+    width: 25%;
+    height: 350px;
+    border-radius: 40px;
+    margin-right: 10px;
     display: flex;
     justify-content: center;
 }
-
-.aboutme h3 {
-    font-weight: normal;
-    z-index: 1000;
-    justify-content: flex-start;    
-    width: 150px;
-    padding-right: 200px;
-    padding-top: 400px;
+.frame9 img{
+    border-radius: 40px;
+    width: 100%;
+    height: 350px;
 }
 
-.lilfella-img {
-    position: absolute;
-    padding-right: 900px;
-    padding-top: 120px;
+.frame10 {
+    background-color: #373737;
+    width: 75%;
+    height: 350px;
+    border-radius: 40px;
 }
-
-.swirl {
-    position: absolute;
-    padding-right: 900px;
-    padding-top: 280px;
-    
-}
-
-.picofme img{
-    align-items: center;
-    padding-right: 100px;
-    width: 400px;
-    z-index: 100;
-}
-
-.aboutme h1 {
-    position: absolute;
-    font-family: "Montserrat", serif;
-    font-size: 50px;
-    font-weight: black;
-    padding-left: 700px;
-    padding-top: 15px;
-    margin: 0;
-}
-
-.aboutme-p {
-    position: absolute;
-    width: 400px;
-    font-size: 20px;
-    padding-left: 1100px;
-    padding-top: 80px;
-}
-
